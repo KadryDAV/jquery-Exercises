@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+#itemForm input[type="text"],
+#itemForm input[type="number"] {
+    margin: 10px 0;
+    margin-right: 50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the submit button */
+#itemForm button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#itemForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the list of items */
+#itemsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#itemsList li {
+    margin: 10px 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Style for the remove button in each list item */
+.removeBtn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.removeBtn:hover {
+    background-color: #bd2130;
+}
